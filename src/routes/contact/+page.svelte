@@ -10,7 +10,7 @@
 	<form method="POST">
 		<label>
 			Subject:
-			<input name="subject" type="text_box" id='subject_line'>
+			<input name="subject" type="text" id='subject_line'>
 		</label>
 		<br/>
 		
@@ -19,7 +19,7 @@
 		</label>
 		<label>
 			From:
-			<input name="sender" type="text_box">
+			<input name="sender" type="text">
 		</label>
 		<button>Send</button>
 	</form>

@@ -27,6 +27,7 @@
 		"@fontsource/abril-fatface": "^5.2.5",
 		"@fontsource/ultra": "^5.2.5",
 		"@sanity/client": "^6.28.4",
-		"@sanity/image-url": "^1.1.0"
+		"@sanity/image-url": "^1.1.0",
+		"nodemailer": "^6.10.1"
 	}
 }
