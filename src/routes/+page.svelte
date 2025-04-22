@@ -1,6 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
-	import face from '$lib/images/IMG_1041.jpeg';
+	import face from '$lib/images/Soft_Lighting_Cheman.jpeg';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
 
