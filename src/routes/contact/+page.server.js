@@ -19,7 +19,7 @@ export const actions = {
 
 		try {
 			await transporter.sendMail({
-				from: `"Portfolio Contact" <ndhfwebpage@gmail.com>`,
+				from: subject + ` <ndhfwebpage@gmail.com>`,
 				to: 'ndh8546@g.rit.edu', 
 				subject: subject,
 				text: `From: ${sender}\n\n${message}`
