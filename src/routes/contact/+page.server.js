@@ -11,8 +11,8 @@ export const actions = {
 		const transporter = nodemailer.createTransport({
 			service: 'gmail', 
 			auth: {
-				user: 'your.email@gmail.com',
-				pass: 'your_app_password' // Use an app password, NOT your main password
+				user: "ndhfwebpage@gmail.com",
+				pass: 'yidv gkmo oekw axzc' // Use an app password, NOT your main password
 			}
 		});
 
