@@ -25,9 +25,10 @@ export const actions = {
 				text: `From: ${sender}\n\n${message}`
 			});
 			console.log("Email sent successfully.");
-			throw redirect(303, './email_sent');
+			
 		} catch (error) {
 			console.error("Error sending email:", error);
 		}
+		throw redirect(303, './email_sent');
 	}
 };

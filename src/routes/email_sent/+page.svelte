@@ -7,11 +7,21 @@
 	
 	<h1>Email sent</h1>
 
-	<p>Your email has been sent sucessfully.</p>
-	<p>I will do my best to respond in a timely manner</p>
-
+	<h2>Your email has been sent sucessfully.</h2>
+	<h2>I will do my best to respond in a timely manner</h2>
+	<br />
+	<div class="home-button-wrapper">
+		<a href="/" id="return_button">Take me home</a>
+	</div>
 </div>
 <style>
+	#return_button{
+		background-color:#3F486E;
+		color:#fff;
+		padding:1em;
+		margin: 1em;
+		
+	}
 	.footer-citation{
 		font-size: .7em;
 		color: #535454;
