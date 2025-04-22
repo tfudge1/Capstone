@@ -1,3 +1,4 @@
+import { redirect } from '@sveltejs/kit';
 import nodemailer from 'nodemailer';
 
 /* @satisfies {import('./$types').Actions} */
@@ -19,11 +20,12 @@ export const actions = {
 		try {
 			await transporter.sendMail({
 				from: `"Portfolio Contact" <ndhfwebpage@gmail.com>`,
-				to: 'ndh8546@rit.edu', 
+				to: 'ndh8546@g.rit.edu', 
 				subject: subject,
 				text: `From: ${sender}\n\n${message}`
 			});
 			console.log("Email sent successfully.");
+			throw redirect(303, './email_sent');
 		} catch (error) {
 			console.error("Error sending email:", error);
 		}
